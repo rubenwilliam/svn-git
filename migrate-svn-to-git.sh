@@ -4,7 +4,7 @@ set -Eeuo pipefail
 SVN_ROOT="/var/svn"
 GIT_ROOT="/var/git"
 LOG_DIR="$(pwd)/log"
-MAX_PARALLEL=2
+MAX_PARALLEL=2 #set how much ur server have core 
 
 mkdir -p "$LOG_DIR" "$GIT_ROOT"
 
